@@ -4,6 +4,7 @@
     font-display: fallback;
     src: url("./BMJUA.eot?iefix") format("embedded-opentype"), url("./BMJUA_ttf.ttf")
     format("truetype");
-    font-weight: 400;
+    font-weight: bold;
     font-style: normal;
+    font-size: 80px;
 }
