@@ -11,6 +11,7 @@ import image2 from './images/2.jpg';
 import image3 from './images/3.jpg';
 import image4 from './images/4.jpg';
 import image5 from './images/5.jpg';
+import image6 from './images/6.jpg';
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
       <img src={image3} className="sliderimg" alt=""/>
       <img src={image4} className="sliderimg" alt=""/>
       <img src={image5} className="sliderimg" alt=""/>
+      <img src={image6} className="sliderimg" alt=""/>
     </AliceCarousel>
     </div>
 
@@ -67,7 +69,11 @@ function App() {
                 />
             </div>
 
+            <footer className='footer'>
+              <span>I love 1-8</span>
+            </footer>
     </div>
+    
   );
 }
 
